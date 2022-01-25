@@ -33,11 +33,11 @@ To start, just click the **[Use template][repo-template-action]** link (or the g
 
 ### Clone repository
 
-To use this repository instead Alaya packages, use the following commands:
+To use this repository inside the Alaya packages, use the following commands:
 
 ```sh
 cd packages
-git clone https://github.com/jsynowiec/node-typescript-boilerplate package-name
+git clone https://github.com/alayagood/node-typescript-boilerplate package-name
 cd package-name
 npm install
 ```
