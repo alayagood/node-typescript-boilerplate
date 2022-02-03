@@ -1,5 +1,3 @@
-console.warn('hello world');
-
 /**
  * Some predefined delay values (in milliseconds).
  */
