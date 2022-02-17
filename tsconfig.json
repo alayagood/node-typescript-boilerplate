@@ -3,6 +3,9 @@
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./build",
+    "removeComments": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "importHelpers": true,
@@ -18,7 +21,9 @@
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strictNullChecks": false,
+    "esModuleInterop": true,
     "skipLibCheck": true /* Skip type checking of declaration files. */
   },
-  "include": ["src/**/*", "__tests__/**/*"]
+  "include": ["src/**/*", "__tests__/**/*"],
+  "exclude": ["build", "node_modules"]
 }
